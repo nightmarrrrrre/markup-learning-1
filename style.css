@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+   }
+   
+   
+   
+   section {
+        background-color: #1fbccc;
+       border:1px solid #ffffff;
+       padding:  15px 25px;
+      
+   
+   }
+   
+   body {
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       background-color: #bebebe;
+      /* margin-left:  10px;
+       margin-right: 10px;*/
+       margin: 0;
+       
+   }
+   
+   header {
+       background-color: #470c9c;
+       border: 10px solid #470c9c;
+       /*padding: 10px 10px; */
+      
+       margin:0;
+   }
+   
+   nav {
+       flex-grow: 1;
+      display: flex; 
+      align-items: center;
+   }
+   
+   .flex-container {
+       display: flex;
+   
+   }
+   
+   .container {
+       max-width: 884px;
+       margin: 0 auto;
+       background-color: #470c9c;;
+   }
+   
+   .nav {
+       display: flex;
+       margin:0;
+       padding: 0;
+       list-style: none;
+       justify-content: space-around;
+       background-color: #470c9c;
+       flex-grow: 1;
+   
+   }
+   
+   .container2 {
+       background-color: #ffffff;
+       margin: 0 auto;
+       max-width: 960px;
+       padding: 0px 40px;
+      padding-top: 30px;
+      padding-bottom:30px;
+   }
+   
+   .p1 {
+      flex-grow: 1;
+       font-size: 40px;
+       font-weight: bold;
+       color:#ffffff;
+       text-align: center;
+       line-height: 750% ;
+      margin: 0;
+     
+   
+       
+   }
+   
+   .block {
+       flex-grow: 1;
+       flex-grow: 1;
+       height: 309px;
+       
+       background-color: #470c9c;
+   
+   }
+   .posts {
+       display: flex;
+       
+       
+   }
+   
+   .list {
+       /*padding: 0px 60px;*/
+       max-width: 800px;
+       flex-grow: 1;
+       margin-left: 20px;
+       margin-top: 15px;
+      
+   }
+   
+   .h{
+       font-size: 17px;
+       font-weight: 600;
+      
+       
+   }
+   
+   h5  {
+       /*padding: 0px 0px 70px 100px;*/
+      
+       font-size: 20px;
+       font-weight: normal;
+       text-align: center;
+   
+   }
+   
+   .a1 {
+       border: 1px solid #6e3ab9;
+       padding: 12px;
+       margin-bottom: 20px;
+       text-align:center;
+       margin-top: 10px;
+   }
+   
+   .a2 {
+       border: 1px solid #6e3ab9;
+       padding: 12px;
+       margin-bottom: 20px;
+       text-align: center;
+   
+   }
+   
+   .a3 {
+       border: 1px solid #6e3ab9;
+       padding: 12px;
+       margin-bottom: 20px;
+       text-align: center;
+      
+   }
+   
+   .a4 {
+       border: 1px solid #6e3ab9;
+       padding: 12px;
+       margin-bottom: 20px;
+       text-align: center;
+   }
+   
+   aside {
+       flex-grow: 1;
+       background-color: lightblue;
+       margin-top: 25px;
+       margin-bottom: 18px;
+   }
+   
+   .color-list{
+       flex-grow: 1;
+       background-color: #ffffff;
+       margin: 25px 20px;
+       height: 160px;
+      
+       padding:  30px 50px;
+   }
+   
+   
+   .windows{
+       
+      background-color: lightblue;
+      padding:10px;
+   
+   
+   }
+   
+   .texts{
+       
+       display:flex;
+       flex-wrap: wrap;
+       
+       
+   }
+   
+   .sign{
+       background-color: #ffffff;
+      /* line-height: 180px;*/
+       max-width: calc(33.33% - 20px);
+       width:100%;
+       margin: 10px;
+       height:200px;
+       flex-grow:1;
+       display: flex;
+       justify-content: center;
+       align-items:center;
+       padding:20px;
+   
+   }
+   
+   .around-form{
+       padding: 20px 1px;
+   }
+   form{
+       border: 1px solid black;
+       flex-grow:1;
+       padding:20px;
+   }
+   
+   .form-text{
+       text-align: center;
+   
+   }
+   
+   .name{
+       /*border: 1px solid black;*/
+       justify-content: start;
+       display: block;
+       margin-left:20px;
+   }
+   
+   
+   
+   
+      .last-name{
+       display:block;
+       margin-left:20px ;
+   }
+   
+   .namebox{
+       display:flex;
+       flex-grow:1;
+   }
+   
+   .nameform {
+       height: 40px;
+       border: 1px solid black;
+       font-size: 15px;
+       padding-left: 10px;
+       flex-grow:1;
+   }
+   
+   .lastnameform{
+       height: 40px;
+       border: 1px solid black;
+       font-size: 15px;
+       padding-left: 10px;
+       flex-grow:1;
+       display:block;
+   
+   }
+   
+   .adress{
+   margin: 0px 0px 0px 20px;
+   display: block;
+   flex-grow:1;
+   
+   }
+   
+   .phone{
+   margin-left: 20px;
+   display: block;
+   flex-grow:1;
+   }
+   
+   .position{
+   margin-left: 20px;
+   display: block;
+   flex-grow:1;
+   }
+   
+   .adressform{
+   border: 1px solid black;
+   height: 40px;
+   flex-grow:1;
+   padding-left:10px;
+   display: block;
+   font-size: 15px;
+    flex-grow:1;
+   }
+   
+   .phoneform{
+       border: 1px solid black;
+   height: 40px;
+   flex-grow:1;
+   display: block;
+   padding-left:10px ;
+   font-size: 15px;
+   }
+   
+   .positionform{
+        border: 1px solid black;
+   height: 40px;
+   flex-grow:1;
+   font-size: 15px;
+   padding:10px;
+   display:block;
+   }
+   
+   .email{
+   margin: 0px 0px 0px 20px;
+   display: block;
+   }
+   
+   .emailform{
+       border: 1px solid black;
+       height: 40px;
+       flex-grow:1;
+       font-size: 15px;
+       padding-left: 10px;
+   display: block;
+   }
+   
+   .form-field{
+       flex-grow: 1;
+       padding:10px;
+   }
+   
+   .secondbox{
+       
+       flex-grow:1;
+       display: flex;
+   }
+   input{
+       width:100%;
+   }
+   
+   button{
+       border: 1px solid green;
+       background: green;
+    padding: 10px 30px;
+   }
+   
+   .thirdbox{
+       display:flex;
+       flex-grow:1;
+   }
+   
+   .buttonbox{
+       display:flex;
+       flex-grow:1;
+       justify-content: center;
+       margin-top:10px;
+      
+   }
+   .logo{
+   width: 100px;
+   height: 50px;
+   background: #d4e3fc;
+   color: black;
+   text-align: center;
+   }
+   
+   .links{
+      list-style: none;
+      margin-left: 0px;
+      padding-left: 0px;
+   }
+   
+   .footer{
+       background-color: #470c9c;
+       margin-top: 120px;
+       margin-bottom: 0px;
+       height: 146px;
+       display: flex;
+       justify-content:  space-around;
+       align-items: center;
+       color :white;
+       font-size: 17px;
+       flex-grow: 1;
+   
+   }
+   
